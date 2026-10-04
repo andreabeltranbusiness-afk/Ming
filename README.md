@@ -29,8 +29,8 @@ Ming rejects inflated AI hype in favor of engineering realism and farmer protect
 
 ```text
 ├── app.py              # Streamlit Web App (Offline-first smartphone PWA & UI demo)
-├── core.py             # Agnostic core logic (Symptom tree, USSD/SMS engine, price checks)
-├── simulator.py        # Feature-phone handset simulator (USSD/SMS interactive view)
-├── server.py           # Production webhook gateway (Flask integration for USSD/SMS aggregators)
+├── core SMS.py             # Agnostic core logic (Symptom tree, USSD/SMS engine, price checks)
+├── simulator SMS.py        # Feature-phone handset simulator (USSD/SMS interactive view)
+├── server SMS.py           # Production webhook gateway (Flask integration for USSD/SMS aggregators)
 ├── requirements.txt    # Python dependencies
-└── data/               # Regional reference price datasets (WFP / HDX format)
+└── requirements SMS.txt    # Python dependencies
