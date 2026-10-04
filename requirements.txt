@@ -1,0 +1,7 @@
+streamlit>=1.35
+pandas
+numpy
+Pillow
+requests
+# Optional, for the real edge model:
+# tflite-runtime
